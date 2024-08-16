@@ -1,0 +1,67 @@
+.bg_white{
+    background-color: var(--white_1);
+}
+.bg_orange{
+    background-color: var(--primary_orange);
+}
+
+.color_black2{
+    color: var(--black_2);
+}
+.color_black3{
+    color: var(--black_3);
+}
+.text_primary_orange{
+    color: var(--primary_orange);
+}
+
+
+
+.orangeBtn{
+    background-color: var(--primary_orange);
+    border: 1px solid var(--primary_orange);
+    color: var(--white_1);
+    font-size: 1.4rem;
+    display: block;
+    border-radius: .5rem;
+    &:hover{
+        color: var(--white_1);
+    }
+}
+.w-15{
+    width: 15%;
+}
+
+.w-10{
+    width: 10%;
+}
+
+
+
+
+/* spacing class  */
+
+.p_1{
+    padding: 1rem;
+}
+.p_2{
+   padding: 2rem; 
+}
+.pt_1{
+    padding-top: 1rem;
+}
+.pt_2{
+    padding-top: 2rem;
+}
+.mt_1{
+    margin-top: 1rem;
+}
+.mt_2{
+    margin-top: 2rem;
+}
+.mb_1{
+    margin-bottom: 1rem;
+}
+.mb_1_5{
+    margin-bottom: 1.5rem;
+}
